@@ -15,7 +15,7 @@ const Dashboard = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-4xl text-center font-bold text-blue-600 mb-4">User Dashboard</h1>
+      <h1 className="text-4xl text-center font-bold text-blue-600 mb-4">Dashboard</h1>
       <SearchBar setSearchTerm={setSearchTerm} />
       <UserForm addUser={addUser} />
       <UserTable users={filteredUsers} />

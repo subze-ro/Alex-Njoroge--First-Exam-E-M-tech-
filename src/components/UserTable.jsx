@@ -10,6 +10,7 @@ const UserTable = ({ users }) => {
   
   return (
     <div className="overflow-x-auto">
+      <h1 className="mt-2 text-2xl text-blue-600 font-medium">User Data</h1>
       <table className="min-w-full bg-white">
         <thead>
           <tr>

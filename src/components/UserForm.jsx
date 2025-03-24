@@ -13,7 +13,9 @@ const UserForm = () => {
   };
 
   return (
+    
     <form onSubmit={handleSubmit(onSubmit)} className="mb-4">
+      <h1 className='mt-4 p-2 text-2xl text-blue-600 font-medium'>Add New User</h1>
       <div className="grid grid-cols-2 gap-4">
         <input
           {...register('name', { required: true })}
